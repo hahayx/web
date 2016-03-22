@@ -2,7 +2,7 @@
 /* CSS Document */
 html{font-size:62.5%;/** 与320的基准比是22.5 **/}
 body{-webkit-tap-highlight-color:transparent;font-family:"微软雅黑", "黑体";position:relative;font-size:1.1em;color:#737373;background:#f0f1f1;}
-body{margin:0 auto;min-width:320px;max-width:720px;}
+body{margin:0 auto;min-width:320px;max-width:640px;}
 *{padding:0;margin:0;}
 img,input,table,tr,td{border:none;}
 section,article,header,footer,nav{display:block;}
