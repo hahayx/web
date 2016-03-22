@@ -1,0 +1,12 @@
+/* 焦点图 */
+#banner{position:relative; overflow:hidden; width:100%; max-width:720px; margin:0 auto;}
+#banner .hd{position:absolute; height:28px; line-height:28px; bottom:0; right:0;}
+/*#banner .hd li{display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#333; text-indent:-9999px; overflow:hidden; margin:0 6px;}*/
+/*#banner .hd li.on{background:#fff;}*/
+#banner .hd li{ display:inline-block; width:10px; height:10px; -webkit-border-radius:5px; -moz-border-radius:10px; border-radius:10px; background:#37353a; text-indent:-9999px; overflow:hidden; margin-top:10px; margin-right:6px;  }
+#banner .hd li.on{ background:#feeaab; border:1px solid #000;  }
+#banner .bd{position:relative;}
+#banner .bd li{position:relative; text-align:center;}
+#banner .bd li img{background:url(./loading.gif) center center no-repeat;  vertical-align:top; width:100%;/* 图片宽度100%，达到自适应效果 */}
+#banner .bd li a{-webkit-tap-highlight-color:rgba(0,0,0,0);}  /* 去掉链接触摸高亮 */
+#banner .bd li .tit{display:none; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:rgba(0,0,0,0.4); color:#fff;  text-align:left;}

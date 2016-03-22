@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haha</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <link charset="utf-8" rel="stylesheet" href="./index.css">
+    <link charset="utf-8" rel="stylesheet" href="./common.css">
+</head>
+<body>
+<div id="banner" class="">
+    <div class="bd">
+        <div class="tempWrap" style="overflow:hidden; position:relative;">
+            <ul style="width: 3600px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition-duration: 200ms; transform: translate(-1440px, 0px) translateZ(0px);">
+
+                <li style="display: table-cell; vertical-align: top; width: 720px;">
+                    <a class="pic" href="http://www.doudou.in/play/32-wdxxnc/ "><img
+                            src="http://img3.a0bi.com/upload/articleResource/20150227/1425003412003.jpg"
+                            alt="我的小小农场"></a>
+                    <a class="tit" href="http://www.doudou.in/play/32-wdxxnc/ ">
+                        我的小小农场
+                    </a>
+                </li>
+                <li style="display: table-cell; vertical-align: top; width: 720px;">
+                    <a class="pic" href="http://www.doudou.in/play/36-kxxxl/"><img
+                            src="http://img3.a0bi.com/upload/articleResource/20150320/1426845510440.jpg"
+                            alt="开心消消乐"></a>
+                    <a class="tit" href="http://www.doudou.in/play/36-kxxxl/">
+                        开心消消乐
+                    </a>
+                </li>
+
+                <li style="display: table-cell; vertical-align: top; width: 720px;">
+                    <a class="pic" href="http://www.doudou.in/play/32-dbcwxjl/"><img
+                            src="http://img2.a0bi.com/upload/articleResource/20150227/1425003382129.jpg" alt="打扮宠物小精灵"></a>
+                    <a class="tit" href="http://www.doudou.in/play/32-dbcwxjl/">
+                        打扮宠物小精灵
+                    </a>
+                </li>
+
+                <li style="display: table-cell; vertical-align: top; width: 720px;">
+                    <a class="pic" href="http://www.doudou.in/play/32-wdxxnc/ "><img
+                            src="http://img3.a0bi.com/upload/articleResource/20150227/1425003412003.jpg"
+                            alt="我的小小农场"></a>
+                    <a class="tit" href="http://www.doudou.in/play/32-wdxxnc/ ">
+                        我的小小农场
+                    </a>
+                </li>
+
+                <li style="display: table-cell; vertical-align: top; width: 720px;">
+                    <a class="pic" href="http://www.doudou.in/play/36-kxxxl/"><img
+                            src="http://img3.a0bi.com/upload/articleResource/20150320/1426845510440.jpg"
+                            alt="开心消消乐"></a>
+                    <a class="tit" href="http://www.doudou.in/play/36-kxxxl/">
+                        开心消消乐
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hd">
+        <ul>
+            <li class="">1</li>
+            <li class="on">2</li>
+            <li class="">3</li>
+        </ul>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="./TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="./zepto.min.all.js"></script>
+<script>
+    var $banner = $("#banner");
+    if ($banner.find(".bd li").length > 0) {
+        TouchSlide({
+            slideCell:"#banner",
+            titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+            mainCell:".bd ul",
+            effect:"leftLoop",
+            autoPage:true,//自动分页
+            autoPlay:true //自动播放
+        });
+        $banner.on("click", ".pic", function(){
+            if(window.DDInnerJS){
+                G.location($(this).attr("href"));
+                return false;
+            }
+            return true;
+        });
+    }
+</script>
+</html>
