@@ -10,3 +10,19 @@
 #banner .bd li img{background:url(./loading.gif) center center no-repeat;  vertical-align:top; width:100%;/* 图片宽度100%，达到自适应效果 */}
 #banner .bd li a{-webkit-tap-highlight-color:rgba(0,0,0,0);}  /* 去掉链接触摸高亮 */
 #banner .bd li .tit{display:none; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:rgba(0,0,0,0.4); color:#fff;  text-align:left;}
+
+#ground{overflow: hidden;}
+#ground li{width: 25%;border-left: 0.075rem solid #dcdcdc;height: 5.375rem;float: left;border-top: 0.075rem solid #dcdcdc; box-sizing:border-box;}
+#ground li:nth-child(4n + 1){margin-left:0;border-left: none;}
+#ground li:nth-child(n + 5){border-bottom:  0.075rem solid #dcdcdc;}
+#ground li a{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-size: 1rem;
+    color:#666666;
+}
+.imgbox{height: 64%;}
