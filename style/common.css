@@ -48,3 +48,5 @@ table,tr,td{border:none;}
     box-pack: center;
     box-align: center;
 }
+
+.middle{margin: 0 auto;width: 96%;background: #ffffff;}

@@ -29,3 +29,23 @@
 }
 .imgbox{height: 64%;}
 .icon{height: 100%;}
+
+.sign{width: 1.333rem;height: 1.333rem;float: left;margin-right: 0.3rem;}
+.s1{margin-left: 0.5rem;}
+.s1{margin-left: 0.55rem;}
+.sign img{width: 100%;height: 100%;}
+.line{overflow: hidden;margin: 0.7rem 0 0.3rem 0;}
+.whiteview{background: white;border-top: 0.075rem solid #dbdbdb;border-bottom: 0.075rem solid #dbdbdb;margin-top: 0.5rem;margin-bottom: 0.5rem;}
+.partname{float: left;color: #333333;}
+
+.sort4{
+    overflow: hidden;
+    text-align: center;
+}
+.sort4 li{width: 25%;height: auto;float: left;margin: 0.625rem 0;}
+.sort4 li:nth-child(4n + 1){margin-left:0;}
+.sort4 .name, .sort4 .desc{display: block;    white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis; overflow: hidden;font-size: 1rem;}
+.sort4 .name{color: #333333;}
+.sort4 .desc{color: #999999;}
+.sort4 .gamelogo{width: 5.2rem;height: 5.2rem;border-radius: 0.8rem;border: 0.1rem solid rgba(73,73,73,0.4);box-sizing: border-box;}
+.sort4 a{width: 82%;display: block;margin: 0 auto;}
