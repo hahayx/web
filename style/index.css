@@ -31,21 +31,61 @@
 .icon{height: 100%;}
 
 .sign{width: 1.333rem;height: 1.333rem;float: left;margin-right: 0.3rem;}
-.s1{margin-left: 0.5rem;}
 .s1{margin-left: 0.55rem;}
+.s2{margin-left: 0.56rem;}
+.s3{margin-left: 0.51rem;}
 .sign img{width: 100%;height: 100%;}
 .line{overflow: hidden;margin: 0.7rem 0 0.3rem 0;}
-.whiteview{background: white;border-top: 0.075rem solid #dbdbdb;border-bottom: 0.075rem solid #dbdbdb;margin-top: 0.5rem;margin-bottom: 0.5rem;}
+.whiteview{background: white;border-top: 0.075rem solid #dbdbdb;border-bottom: 0.075rem solid #dbdbdb;margin-top: 0.5rem;}
 .partname{float: left;color: #333333;}
 
-.sort4{
+.sort4, .sort4x{
     overflow: hidden;
     text-align: center;
 }
 .sort4 li{width: 25%;height: auto;float: left;margin: 0.625rem 0;}
 .sort4 li:nth-child(4n + 1){margin-left:0;}
+
 .sort4 .name, .sort4 .desc{display: block;    white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis; overflow: hidden;font-size: 1rem;}
 .sort4 .name{color: #333333;}
 .sort4 .desc{color: #999999;}
 .sort4 .gamelogo{width: 5.2rem;height: 5.2rem;border-radius: 0.8rem;border: 0.1rem solid rgba(73,73,73,0.4);box-sizing: border-box;}
 .sort4 a{width: 82%;display: block;margin: 0 auto;}
+
+.sort4x li{width: 25%;height: auto;float: left;margin: 0.625rem 0;}
+.sort4x li:nth-child(4n + 1){margin-left:0;}
+
+.sort4x li a{
+    width: 80%;
+    background: #f2f2f2;
+    display: block;
+    margin: 0 auto;
+    padding: 0.2rem 0;
+    box-sizing: content-box;
+    border-left: 0.15rem solid #e7e7e7;
+    color: #333333;
+}
+.sort4x li .c2{background: #3399ff;border-color: #137feb;color: #ffffff;}
+.sort4x li .c3{background: #ff6666;border-color: #fc2e2e;color: #ffffff;}
+.sort4x li .c4{background: #ff9933;border-color: #f37e0a;color: #ffffff;}
+.sort4x li .c5{background: #cc99ff;border-color: #b974ff;color: #ffffff;}
+
+.morepart{
+    height: 2rem;
+    background: white;
+    border-bottom: 0.075rem solid #dbdbdb;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1.16rem;
+    color: #666666;
+    display: block;
+    vertical-align: middle;
+    padding-top: 0.45rem;
+}
+.more{
+    margin-right: 0.44rem;
+    color: #333333;
+}
+.arrow{
+    color: #68b100;
+}
