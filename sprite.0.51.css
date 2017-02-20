@@ -1155,6 +1155,7 @@ a.icon-more.active::after {
     overflow-y: hidden;
     min-height: 10.75rem;
     padding-left: .5rem;
+    padding-right: .5rem;
     white-space: nowrap
 }
 
