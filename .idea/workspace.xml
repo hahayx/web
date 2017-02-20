@@ -2,38 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a30c6fa-f72c-4334-abe2-0eb1c00ac308" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ava.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/h.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/LBF.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/book-cover.0.50.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/font/FZZCYSK/FZZCYSK.0.53.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/icon/common/sprite.0.50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/icon/common/sprite@2x.0.50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/img/book-cover.0.50.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/img/logo-qdm.0.50.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/index.0.68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/js/common/components/LazyLoad.0.51.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/js/common/utils/Storage_1487518224097.0.51.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/js/common/utils/date.0.52.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/script/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/sprite.0.51.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new version 1/sprite.0.51.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/img/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/index.css" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\common.css" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\icon\common\sprite@2x.0.50.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\11.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\font\FZZCYSK\FZZCYSK.0.53.woff2" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\8.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\5.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\LBF.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\ava.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\index.0.68.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\script\zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\sprite.0.51.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\4.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\1.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\icon\common\sprite.0.50.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\img\book-cover.0.50.svg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\index.css" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\book-cover.0.50.svg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\index.html" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\components\LazyLoad.0.51.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\7.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\10.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\9.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\img\logo-qdm.0.50.svg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\6.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\3.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\sprite.0.51.css" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\2.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\utils\date.0.52.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\utils\Storage_1487518224097.0.51.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/TouchSlide.1.1.js" afterPath="$PROJECT_DIR$/script/TouchSlide.1.1.js" />
     </list>
@@ -46,6 +46,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -54,13 +55,40 @@
     <favorites_list name="haha" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24147">
-              <caret line="1295" column="49" lean-forward="false" selection-start-line="1295" selection-start-column="49" selection-end-line="1295" selection-end-column="49" />
+            <state vertical-scroll-proportion="-4.5238094">
+              <caret line="1313" column="0" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="description.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/description.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4144144">
+              <caret line="131" column="92" selection-start-line="131" selection-start-column="87" selection-end-line="131" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desc-sprite.0.51.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4603174">
+              <caret line="2655" column="1" selection-start-line="2655" selection-start-column="1" selection-end-line="2655" selection-end-column="1" />
+              <folding>
+                <element signature="e#28042#28305#1" expanded="true" />
+                <element signature="e#36835#37538#2" expanded="true" />
+                <element signature="e#37664#38355#2" expanded="true" />
+                <element signature="e#39959#40438#1" expanded="true" />
+                <element signature="e#41444#41775#1" expanded="true" />
+                <element signature="e#56029#56644#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,11 +96,9 @@
       <file leaf-file-name="TouchSlide.1.1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/TouchSlide.1.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-              <folding>
-                <marker date="1487569626870" expanded="true" signature="3784:3819" ph="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="155" column="32" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,20 +141,33 @@
         <option value="$PROJECT_DIR$/new version 2/index.html" />
         <option value="$PROJECT_DIR$/new version 2/ban.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/desc-sprite.0.51.css" />
+        <option value="$PROJECT_DIR$/description.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -141,13 +180,17 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="haha" />
@@ -169,6 +212,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,51 +258,37 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17336152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,114 +304,71 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 1/script/zepto.min.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 1/script/TouchSlide.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 1/ban.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 1/sprite.0.51.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="1157" column="17" lean-forward="false" selection-start-line="1157" selection-start-column="17" selection-end-line="1157" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/TouchSlide.1.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-          <folding>
-            <marker date="1487569626870" expanded="true" signature="3784:3819" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 1/zepto.min.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="1313" column="54" lean-forward="false" selection-start-line="1313" selection-start-column="54" selection-end-line="1313" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 2/ban.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new version 2/script/LazyLoad.0.51.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24147">
-          <caret line="1295" column="49" lean-forward="false" selection-start-line="1295" selection-start-column="49" selection-end-line="1295" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/TouchSlide.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="32" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4603174">
+          <caret line="2655" column="1" selection-start-line="2655" selection-start-column="1" selection-end-line="2655" selection-end-column="1" />
+          <folding>
+            <element signature="e#28042#28305#1" expanded="true" />
+            <element signature="e#36835#37538#2" expanded="true" />
+            <element signature="e#37664#38355#2" expanded="true" />
+            <element signature="e#39959#40438#1" expanded="true" />
+            <element signature="e#41444#41775#1" expanded="true" />
+            <element signature="e#56029#56644#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5238094">
+          <caret line="1313" column="0" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4144144">
+          <caret line="131" column="92" selection-start-line="131" selection-start-column="87" selection-end-line="131" selection-end-column="92" />
           <folding />
         </state>
       </provider>
