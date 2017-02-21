@@ -2,38 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a30c6fa-f72c-4334-abe2-0eb1c00ac308" name="Default" comment="">
+      <change type="DELETED" beforePath="X:\haha\style\img\7.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\index.css" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\style\common.css" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\8.png" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\new version 1\icon\common\sprite@2x.0.50.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\11.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\2.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\3.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\index.html" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\sprite.0.51.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\6.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\components\LazyLoad.0.51.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\img\book-cover.0.50.svg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\sprite.0.51.css" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\script\zepto.min.js" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\new version 1\loading.gif" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\new version 1\font\FZZCYSK\FZZCYSK.0.53.woff2" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\8.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\5.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\LBF.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\ava.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\index.0.68.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\script\zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\sprite.0.51.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\4.png" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\style\img\1.png" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\new version 1\icon\common\sprite.0.50.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\img\book-cover.0.50.svg" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\index.css" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\book-cover.0.50.svg" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\index.html" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\components\LazyLoad.0.51.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\7.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\10.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\11.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\5.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\utils\Storage_1487518224097.0.51.js" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\style\img\9.png" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\new version 1\img\logo-qdm.0.50.svg" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\6.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\3.png" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\h.jpg" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\sprite.0.51.css" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\style\img\2.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\book-cover.0.50.svg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\LBF.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\4.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\ava.png" afterPath="" />
       <change type="DELETED" beforePath="X:\haha\new version 1\js\common\utils\date.0.52.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\haha\new version 1\js\common\utils\Storage_1487518224097.0.51.js" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\style\img\10.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\haha\new version 1\index.0.68.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/TouchSlide.1.1.js" afterPath="$PROJECT_DIR$/script/TouchSlide.1.1.js" />
     </list>
@@ -59,19 +59,49 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5238094">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1313" column="0" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="description.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="description.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/description.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4144144">
-              <caret line="131" column="92" selection-start-line="131" selection-start-column="87" selection-end-line="131" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="57" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#article#0;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#1;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book-sprite.0.51.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book-sprite.0.51.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38063064">
+              <caret line="4883" column="142" selection-start-line="4883" selection-start-column="142" selection-end-line="4883" selection-end-column="142" />
+              <folding>
+                <element signature="e#28042#28305#1" expanded="true" />
+                <element signature="e#36835#37538#2" expanded="true" />
+                <element signature="e#37664#38355#2" expanded="true" />
+                <element signature="e#39959#40438#1" expanded="true" />
+                <element signature="e#41444#41775#1" expanded="true" />
+                <element signature="e#56028#56643#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +109,7 @@
       <file leaf-file-name="desc-sprite.0.51.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4603174">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2655" column="1" selection-start-line="2655" selection-start-column="1" selection-end-line="2655" selection-end-column="1" />
               <folding>
                 <element signature="e#28042#28305#1" expanded="true" />
@@ -109,6 +139,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -143,6 +174,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/desc-sprite.0.51.css" />
         <option value="$PROJECT_DIR$/description.html" />
+        <option value="$PROJECT_DIR$/content.html" />
+        <option value="$PROJECT_DIR$/book-sprite.0.51.css" />
       </list>
     </option>
   </component>
@@ -182,7 +215,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,7 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,6 +267,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -244,9 +277,11 @@
     <property name="nodejs_interpreter_path" value="E:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\haha\img" />
       <recent name="D:\haha\new version 2\script" />
       <recent name="D:\haha\new version 1" />
       <recent name="D:\haha\script" />
@@ -276,7 +311,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17336152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -302,6 +337,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1313" column="0" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2655" column="1" selection-start-line="2655" selection-start-column="1" selection-end-line="2655" selection-end-column="1" />
+          <folding>
+            <element signature="e#28042#28305#1" expanded="true" />
+            <element signature="e#36835#37538#2" expanded="true" />
+            <element signature="e#37664#38355#2" expanded="true" />
+            <element signature="e#39959#40438#1" expanded="true" />
+            <element signature="e#41444#41775#1" expanded="true" />
+            <element signature="e#56029#56644#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/TouchSlide.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="32" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -344,7 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4603174">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2655" column="1" selection-start-line="2655" selection-start-column="1" selection-end-line="2655" selection-end-column="1" />
           <folding>
             <element signature="e#28042#28305#1" expanded="true" />
@@ -359,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5238094">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1313" column="0" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
           <folding />
         </state>
@@ -367,9 +441,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/description.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4144144">
-          <caret line="131" column="92" selection-start-line="131" selection-start-column="87" selection-end-line="131" selection-end-column="92" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-sprite.0.51.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38063064">
+          <caret line="4883" column="142" selection-start-line="4883" selection-start-column="142" selection-end-line="4883" selection-end-column="142" />
+          <folding>
+            <element signature="e#28042#28305#1" expanded="true" />
+            <element signature="e#36835#37538#2" expanded="true" />
+            <element signature="e#37664#38355#2" expanded="true" />
+            <element signature="e#39959#40438#1" expanded="true" />
+            <element signature="e#41444#41775#1" expanded="true" />
+            <element signature="e#56028#56643#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
