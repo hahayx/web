@@ -47,62 +47,8 @@ if (/iphone/i.test(navigator.userAgent)) {
         <h1 id="chapterTitle" class="read-book-name">${chapterName}</h1>
         <i id="readBookmark" class="read-bookmark" hidden>已加入书签</i>
     </div>
-    <mark id="readPageMark" class="read-page-mark">你刚刚阅读到这里</mark>
-    <p id="pageNum" class="read-page-num">-/-</p>
 </div>
-<div id="pageReadOpt" class="page-read-opt " data-settings-key="r_set" data-settings-str="dn:d|fs:3|skin:0|vh:v">
-    <header class="header read-opt-header" data-l1="1">
 
-        <a href="javascript:history.go(-1)" class="header-back jsBack"  data-eid="mqd_G14">
-            <svg class="icon icon-arrow-l"><title>返回</title><use xlink:href="#icon-arrow-l"></use></svg>
-        </a>
-
-    </header>
-
-    <div id="readOptProg" class="read-opt-bot read-opt-prog" data-l1="2">
-        <div class="read-prog-info">
-
-            <div id="readProgVal" class="read-prog-val">
-                <h4 class="ell"></h4>
-                <output role="presentation"></output>
-            </div>
-        </div>
-        <div class="read-prog-bar">
-            <input type="range" id="readProgRange" name="read-prog" min="0" max="1000" value="0">
-        </div>
-    </div>
-    <div id="readOptSet" class="read-opt-bot read-opt-set" data-l1="2">
-        <div class="read-set-font">
-            <a href="javascript:" id="readFontDown" class="read-font-down">
-                <svg class="icon icon-size-down"><use xlink:href="#icon-size-down"></use></svg>
-                <aria>字号变小</aria>
-            </a>
-            <a href="javascript:" id="readFontUp" class="read-font-up">
-                <svg class="icon icon-size-up"><use xlink:href="#icon-size-up"></use></svg>
-                <aria>字号变大</aria>
-            </a>
-            <div class="read-font-bar">
-                <input type="range" id="readFontRange" name="font-size" min="1" max="8" value="3" data-eids="mqd_R15|mqd_R16|mqd_R17|mqd_R18|mqd_R19|mqd_R20|mqd_R21|mqd_R22">
-            </div>
-        </div>
-		
-    </div>
-    <footer class="read-opt-footer" data-l1="2">
-        <div class="btn-group">
-            <a href="#&amp;asideChapter" id="readBtnChapter" class="btn-group-cell" data-rel="asideChapter" data-eid="mqd_R10">
-                <svg class="icon icon-catalog"><use xlink:href="#icon-catalog"></use></svg>
-                <h4 class="read-opt-footer-h">目录</h4>
-            </a>
-	
-            <a href="javascript:" id="readBtnMode" class="btn-group-cell" data-mode="night" role="checkbox" title="日间夜间模式切换">
-                <svg class="icon icon-day" data-eid="mqd_R29"><use xlink:href="#icon-day"></use></svg>
-                <svg class="icon icon-night" data-eid="mqd_R30"><use xlink:href="#icon-night"></use></svg>
-                <h4 class="read-opt-footer-h">夜间</h4>
-            </a>
-			<!-- 评论干掉了 -->
-        </div>
-    </footer>
-</div>
 
 <script type="text/javascript" src="/xiaoshuo/script/content.js"></script>
 </body>
