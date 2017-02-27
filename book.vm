@@ -5,9 +5,6 @@
     <title>${bookName}最新章节_${bookName}免费全文阅读_${bookName}小说无弹窗_哈哈优选</title>
     <meta name="keywords" content="${bookName},${bookName}最新章节,${bookName}全文阅读,${bookName}免费小说,${bookName}无弹窗">
     <meta name="description" content="哈哈优选提供${bookName}小说最新章节，${bookName}小说免费全文在线阅读，没有弹窗，看的更爽。">
-    <meta name="robots" content="all">
-    <meta name="googlebot" content="all">
-    <meta name="baiduspider" content="all">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <link rel="stylesheet" href="/xiaoshuo/desc-sprite.0.51.css">
