@@ -37,7 +37,7 @@ if (/iphone/i.test(navigator.userAgent)) {
 			#set($pre=$!{index} - 1)
             <a href="/xiaoshuo/book-${bookId}/${pre}.html" id="readProgPrev" class="pager1">← 上一章</a>
 			#end
-			<a href="??????" id="readProgReturn" class="pager2 return_list">返回目录</a>
+			<a href="/xiaoshuo/book-${bookId}/" id="readProgReturn" class="pager2 return_list">返回目录</a>
 			#if($index < $size)
 			#set($next=$!{index} + 1)
             <a href="/xiaoshuo/book-${bookId}/${next}.html" id="readProgNext" class="pager2">下一章 →</a>
