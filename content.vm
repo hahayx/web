@@ -23,20 +23,26 @@ if (/iphone/i.test(navigator.userAgent)) {
 <script data-ignore="true" src="/xiaoshuo/script/sprite.0.51.js"></script>
 
 <div id="pageRead" class="page-read ">
-    <content id="readContent" class="page-read-content" data-l1="4">
-        <div id="readLoadPrev" class="read-load-prev">
-            <a class="read-load-icon btn-any loading"></a>
-            <p class="read-load-p">下拉阅读上一章</p>
-        </div>
-        <article id="chapterContent" class="read-article" style="font-size: 1.125rem" data-eids="mqd_R34|mqd_R35">
-            <section class="read-section jsChapterWrapper" data-chapter-id="306272026" >
+    <content id="readContent" class="page-read-content" >
+        <article id="chapterContent" class="read-article" style="font-size: 1.125rem" >
+            <section class="read-section jsChapterWrapper" >
                 <h3>${chapterName}</h3>
                ${content}
 
             </section>
         </article>
     </content>
-
+	<div class="pages">
+	#if($index > 1)
+			#set($pre=$!{index} - 1)
+            <a href="/xiaoshuo/book-${bookId}/${pre}.html" id="readProgPrev" class="pager1">← 上一章</a>
+			#end
+			<a href="??????" id="readProgReturn" class="pager2 return_list">返回目录</a>
+			#if($index < $size)
+			#set($next=$!{index} + 1)
+            <a href="/xiaoshuo/book-${bookId}/${next}.html" id="readProgNext" class="pager2">下一章 →</a>
+			#end
+	</div>
     <div class="page-read-top">
         <h1 id="chapterTitle" class="read-book-name">${chapterName}</h1>
         <i id="readBookmark" class="read-bookmark" hidden>已加入书签</i>
@@ -44,7 +50,7 @@ if (/iphone/i.test(navigator.userAgent)) {
     <mark id="readPageMark" class="read-page-mark">你刚刚阅读到这里</mark>
     <p id="pageNum" class="read-page-num">-/-</p>
 </div>
-<div id="pageReadOpt" class="page-read-opt active" data-settings-key="r_set" data-settings-str="dn:d|fs:3|skin:0|vh:v">
+<div id="pageReadOpt" class="page-read-opt " data-settings-key="r_set" data-settings-str="dn:d|fs:3|skin:0|vh:v">
     <header class="header read-opt-header" data-l1="1">
 
         <a href="javascript:history.go(-1)" class="header-back jsBack"  data-eid="mqd_G14">
@@ -55,18 +61,7 @@ if (/iphone/i.test(navigator.userAgent)) {
 
     <div id="readOptProg" class="read-opt-bot read-opt-prog" data-l1="2">
         <div class="read-prog-info">
-			#if($index > 1)
-			#set($pre=$!{index} - 1)
-            <a href="/xiaoshuo/book-${bookId}/${pre}.html" id="readProgPrev" class="read-prog-prev" data-eid="mqd_R12">
-                <svg class="icon icon-arrow-r" aria-hidden="true"><use xlink:href="#icon-arrow-r"></use></svg>上一章
-            </a>
-			#end
-			#if($index < $size)
-			#set($next=$!{index} + 1)
-            <a href="/xiaoshuo/book-${bookId}/${next}.html" id="readProgNext" class="read-prog-next" data-eid="mqd_R13">
-                下一章<svg class="icon icon-arrow-r" aria-hidden="true"><use xlink:href="#icon-arrow-r"></use></svg>
-            </a>
-			#end
+
             <div id="readProgVal" class="read-prog-val">
                 <h4 class="ell"></h4>
                 <output role="presentation"></output>
