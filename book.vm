@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>${bookName}最新章节_${bookName}免费全文阅读_${bookName}小说无弹窗_哈哈优选</title>
+    <meta name="keywords" content="${bookName},${bookName}最新章节,${bookName}全文阅读,${bookName}免费小说,${bookName}无弹窗">
+    <meta name="description" content="哈哈优选提供${bookName}小说最新章节，${bookName}小说免费全文在线阅读，没有弹窗，看的更爽。">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="baiduspider" content="all">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="/xiaoshuo/desc-sprite.0.51.css">
+</head>
+<body class=" unlogin">
+<script>// add by zhangxinxu 让iOS9- Safari :active伪类生效
+// document.body.addEventListener('ontouchstart', function() {});
+// Safari使用-webkit-tap-highlight-color高亮，因为:active时机有问题
+if (/iphone/i.test(navigator.userAgent)) {
+    document.body.style.webkitTapHighlightColor = 'rgba(0,0,0,.05)';
+    document.body.classList.add('iphone');
+}</script>
+<script data-ignore="true" src="./script/sprite.0.51.js"></script>
+<div class="page page-book-detail">
+    <div class="content">
+        <header id="header" class="header" data-l1="41">
+
+            <a href="javascript:history.go(-1)" class="header-back jsBack" data-eid="mqd_G14">
+                <svg class="icon icon-arrow-l"><title>返回</title>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-l"></use>
+                </svg>
+            </a>
+
+            <h1 class="header-back-title">${bookName}</h1>
+			<!--  
+            <div class="header-operate">
+                <a id="openSearchPopup" href="javascript:" class="icon icon-search" title="搜索" role="button">
+                    <svg>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+                    </svg>
+                </a>
+                <a id="openGuide" href="javascript:" class="icon icon-more" title="更多" data-rel="guide"></a>
+            </div>
+			--->
+        </header>
+        <div id="guide" class="guide">
+            <i id="guideOverlay" class="guide-overlay"></i>
+
+            <div class="guide-content">
+                <nav class="guide-nav">
+                    <a href="/male" class="guide-nav-a">
+                        <i class="icon icon-home"></i>
+                        <h4 class="guide-nav-h">首页</h4>
+                    </a>
+                    <a href="/category/male" class="guide-nav-a">
+                        <i class="icon icon-sort"></i>
+                        <h4 class="guide-nav-h">分类</h4>
+                    </a>
+                    <a href="/rank/male" class="guide-nav-a">
+                        <i class="icon icon-rank"></i>
+                        <h4 class="guide-nav-h">排行榜</h4>
+                    </a>
+                    <a href="/free/male" class="guide-nav-a">
+                        <i class="icon icon-free"></i>
+                        <h4 class="guide-nav-h">免费</h4>
+                    </a>
+                    <a href="/finish/male" class="guide-nav-a">
+                        <i class="icon icon-end"></i>
+                        <h4 class="guide-nav-h">完本</h4>
+                    </a>
+                    <a href="/user" class="guide-nav-a jsLogin">
+                        <i class="icon icon-account"></i>
+                        <h4 class="guide-nav-h">账户</h4>
+                    </a>
+                </nav>
+				<!--  
+                <div class="guide-footer">
+                    <a href="/bookshelf/my" class="btn-primary" data-size="14">我的书架</a>
+                </div>
+				--->
+            </div>
+        </div>
+        <div id="bookDetailWrapper" class="module module-merge book-detail-x" data-book-id="1004608738"
+             data-chan-id="21" data-author-id="4362453" data-user-level="" data-book-type="1" data-login-status="false">
+            <img src="/xiaoshuo/cover/${bookId}.jpg" class="book-cover-blur" alt="${bookName}"
+                 aria-hidden="true">
+
+            <div class="book-detail-info">
+                <div class="book-layout">
+
+                    <img src="/xiaoshuo/cover/${bookId}.jpg" class="book-cover" alt="${bookName}"
+                         aria-labelledby="ariaBook ariaTime">
+
+                    <div class="book-cell">
+                        <h2 class="book-title">${bookName}</h2>
+
+                        <div class="book-rand-a" role="link">
+                            <a  role="option">
+                                <aria>作者：</aria>
+                                ${auther}
+                            </a>
+                        </div>
+                        <p class="book-meta" role="option">${type}</p>
+                        <p class="book-meta" role="option">${status}</p>
+                    </div>
+                </div>
+				<!-- 
+                <div class="book-detail-btn" data-read-status="0" data-bookshelf-status="0" data-l1="2">
+                    <ul class="btn-group">
+                        <li class="btn-group-cell"><a href="/book/1004608738/339991957" class="btn-normal red"
+                                                      id="btnReadBook" data-eid="mqd_G02">免费试读</a></li>
+                        <li class="btn-group-cell"><a href="javascript:" class="btn-normal white" id="btnAddToBookshelf"
+                                                      data-bookshelf-status="" data-eid="mqd_G03" role="button">加入书架</a>
+                        </li>
+
+                        <li class="btn-group-cell"><a href="javascript:" id="myCart" class="btn-normal white"
+                                                      data-eid="mqd_G04" role="button">VIP订阅</a></li>
+
+                    </ul>
+                </div>
+				--->
+				
+            </div>
+        </div>
+        <div class="module module-merge">
+            <section id="bookSummary" class="book-summary" role="option">
+                <aria>书籍摘要：</aria>
+                <content>${info}</content>
+                    <span class="book-summary-more">
+                        <svg class="icon icon-arrow-r" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-r"></use>
+                        </svg>
+                    </span>
+            </section>
+            <a href="/xiaoshuo/book-${bookId}/${lastChapterIndex}.html" class="book-meta book-status">
+                <div role="option">
+                    <div class="book-meta-l">
+                        <aria>点击访问</aria>
+                        <strong class="book-spt">目录</strong>
+                    </div>
+                    <div class="book-meta-r">
+                        <aria>：更新状态：</aria>
+                        <p class="gray ell" id="ariaMuLu" role="option">${lastChapterName}</p>
+                        <svg class="icon icon-arrow-r" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-r"></use>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="catalogWrapper" data-book-id="1004608738">
+            <div id="chapterNav" class="btn-group-tab">
+                <nav class="btn-group">
+                    <h3 class="btn-group-cell"><a href="javascript:" class="btn-blank active" data-rel="catelogX"
+                                                  role="tab" data-index="0" aria-selected="true">目录</a></h3>
+
+                </nav>
+
+            </div>
+            <div class="module module-merge">
+                <div id="catelogX" class="chapter-tab-x active">
+                    <div class="module-header">
+                        <div class="module-header-l">
+                            <h4 class="chapter-sub-title">共
+                                <output>${lastChapterIndex}</output>
+                                章
+                            </h4>
+                        </div>
+                        <div class="module-header-r">
+                            <a id="reverse" href="javascript:" class="module-header-btn dark" role="button">倒序</a>
+                        </div>
+                    </div>
+                    <ol id="volumes" class="chapter-ol chapter-ol-catalog">
+
+
+                        <li class="chapter-bar">正文卷</li>
+						 #foreach($chapter in $chapters)
+                        <li class="chapter-li jsChapter" role="&quot;link&quot;">
+                            <a href="/xiaoshuo/book-${bookId}/$!{velocityCount}.html" class="chapter-li-a " data-chapter-id="$!{velocityCount}"
+                               role="option">
+                                <span class="chapter-index ">${chapter.name}</span>
+                            </a>
+                        </li>
+						#end  
+
+                    </ol>
+                </div>
+                <div id="bookmarkX" class="chapter-tab-x"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
+<a href="#header" class="footer-backtop-circle jsBackToTop" title="返回顶部" data-l1="40" data-eid="mqd_A51">
+    <svg class="icon icon-backtop">
+        <use xlink:href="#icon-backtop"></use>
+    </svg>
+</a>
+
+<script type="text/javascript" src="/xiaoshuo/script/zepto.min.js"></script>
+<script type="text/javascript" src="/xiaoshuo/script/book.js"></script>
+
+
+</body>
+</html>
