@@ -6,6 +6,7 @@
     <meta name="keywords" content="${bookName}【${chapterName}】">
     <meta name="description" content="哈哈优选提供${bookName}小说在线阅读，【${chapterName}】最新章节在线免费阅读。">
     <meta name="format-detection" content="telephone=no">
+    <meta name="applicable-device" content="pc,mobile">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <link rel="stylesheet" href="/xiaoshuo/book-sprite.0.51.css">
 </head>
