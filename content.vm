@@ -25,23 +25,25 @@ if (/iphone/i.test(navigator.userAgent)) {
 			<section class="read-section jsChapterWrapper" >
 				<h1>${chapterName}</h1>
 			   ${content}
-
 			</section>
 		</article>
 	</content>
 	<div class="pages">
-	#if($index > 1)
+			#if($index > 1)
 			#set($pre=$!{index} - 1)
 			<a href="/xiaoshuo/book-${bookId}/${pre}.html" id="readProgPrev" class="pager1">← 上一章</a>
 			#end
+			
 			<a href="/xiaoshuo/book-${bookId}/" id="readProgReturn" class="pager2 return_list">返回目录</a>
+			
 			#if($index < $size)
 			#set($next=$!{index} + 1)
 			<a href="/xiaoshuo/book-${bookId}/${next}.html" id="readProgNext" class="pager2">下一章 →</a>
 			#end
 	</div>
 	<div class="page-read-top">
-		<h1 id="chapterTitle" class="read-book-name">${chapterName}</h1>
+
+		<strong id="chapterTitle" class="read-book-name">${chapterName}</strong>
 		<i id="readBookmark" class="read-bookmark" hidden>已加入书签</i>
 	</div>
 	<div id="ext"></div>
