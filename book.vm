@@ -6,6 +6,7 @@
     <meta name="keywords" content="${bookName},${bookName}最新章节,${bookName}全文阅读,${bookName}免费小说,${bookName}无弹窗">
     <meta name="description" content="哈哈优选提供${bookName}小说最新章节，${bookName}小说免费全文在线阅读，没有弹窗，看的更爽。">
     <meta name="format-detection" content="telephone=no">
+    <meta name="applicable-device" content="pc,mobile">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <link rel="stylesheet" href="/xiaoshuo/desc-sprite.0.51.css">
 </head>
@@ -89,7 +90,7 @@ if (/iphone/i.test(navigator.userAgent)) {
                          aria-labelledby="ariaBook ariaTime">
 
                     <div class="book-cell">
-                        <h2 class="book-title">${bookName}</h2>
+                        <strong class="book-title">${bookName}</strong>
 
                         <div class="book-rand-a" role="link">
                             <a  role="option">
