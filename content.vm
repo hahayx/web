@@ -17,16 +17,30 @@
 if (/iphone/i.test(navigator.userAgent)) {
     document.body.style.webkitTapHighlightColor = 'rgba(0,0,0,.05)';
     document.body.classList.add('iphone');
-}</script>
+}
+var bookId = ${bookId};
+var bookName = "${bookName}";
+var chapterId = ${index};
+var chapterName ="${chapterName}";
+
+</script>
 <script data-ignore="true" src="/script/sprite.0.51.js"></script>
 
 <div id="pageRead" class="page-read ">
     <div class="nr_page">
         <table cellpadding="0" cellspacing="0">
             <tbody><tr>
-            <td class="prev"><a  href="??">上一章</a></td>
-            <td class="mulu"><a  href="??">返回目录</a></td>
+			#if($index > 1)
+			#set($pre=$!{index} - 1)
+            <td class="prev"><a  href="http://www.hahayx.com/xiaoshuo/book-${bookId}/${pre}.html">上一章</a></td>
+			#end
+			
+            <td class="mulu"><a  href="http://www.hahayx.com/xiaoshuo/book-${bookId}/">返回目录</a></td>
+			
+			#if($index < $size)
+			#set($next=$!{index} + 1)
             <td class="next"><a  href="??">下一章</a></td>
+			#end
             </tr>
         </tbody></table>
     </div>

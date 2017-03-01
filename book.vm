@@ -17,7 +17,10 @@
 if (/iphone/i.test(navigator.userAgent)) {
     document.body.style.webkitTapHighlightColor = 'rgba(0,0,0,.05)';
     document.body.classList.add('iphone');
-}</script>
+}
+var bookId = ${bookId};
+var bookName = "${bookName}";
+</script>
 <script data-ignore="true" src="./script/sprite.0.51.js"></script>
 <div class="page page-book-detail">
     <div class="content">
@@ -46,36 +49,32 @@ if (/iphone/i.test(navigator.userAgent)) {
 
             <div class="guide-content">
                 <nav class="guide-nav">
-                    <a href="/male" class="guide-nav-a">
+                    <a href="/" class="guide-nav-a">
                         <i class="icon icon-home"></i>
                         <h4 class="guide-nav-h">首页</h4>
                     </a>
-                    <a href="/category/male" class="guide-nav-a">
+                    <a href="/" class="guide-nav-a">
                         <i class="icon icon-sort"></i>
                         <h4 class="guide-nav-h">分类</h4>
                     </a>
-                    <a href="/rank/male" class="guide-nav-a">
+                    <a href="/" class="guide-nav-a">
                         <i class="icon icon-rank"></i>
                         <h4 class="guide-nav-h">排行榜</h4>
                     </a>
-                    <a href="/free/male" class="guide-nav-a">
+                    <a href="/" class="guide-nav-a">
                         <i class="icon icon-free"></i>
                         <h4 class="guide-nav-h">免费</h4>
                     </a>
-                    <a href="/finish/male" class="guide-nav-a">
+                    <a href="/" class="guide-nav-a">
                         <i class="icon icon-end"></i>
                         <h4 class="guide-nav-h">完本</h4>
                     </a>
-                    <a href="/user" class="guide-nav-a jsLogin">
+                    <a href="/" class="guide-nav-a jsLogin">
                         <i class="icon icon-account"></i>
                         <h4 class="guide-nav-h">账户</h4>
                     </a>
                 </nav>
-				<!--  
-                <div class="guide-footer">
-                    <a href="/bookshelf/my" class="btn-primary" data-size="14">我的书架</a>
-                </div>
-				--->
+
             </div>
         </div>
         <div id="bookDetailWrapper" class="module module-merge book-detail-x" data-book-id="1004608738"
@@ -102,21 +101,6 @@ if (/iphone/i.test(navigator.userAgent)) {
                         <p class="book-meta" role="option">${status}</p>
                     </div>
                 </div>
-				<!-- 
-                <div class="book-detail-btn" data-read-status="0" data-bookshelf-status="0" data-l1="2">
-                    <ul class="btn-group">
-                        <li class="btn-group-cell"><a href="/book/1004608738/339991957" class="btn-normal red"
-                                                      id="btnReadBook" data-eid="mqd_G02">免费试读</a></li>
-                        <li class="btn-group-cell"><a href="javascript:" class="btn-normal white" id="btnAddToBookshelf"
-                                                      data-bookshelf-status="" data-eid="mqd_G03" role="button">加入书架</a>
-                        </li>
-
-                        <li class="btn-group-cell"><a href="javascript:" id="myCart" class="btn-normal white"
-                                                      data-eid="mqd_G04" role="button">VIP订阅</a></li>
-
-                    </ul>
-                </div>
-				--->
 				
             </div>
         </div>
@@ -170,8 +154,6 @@ if (/iphone/i.test(navigator.userAgent)) {
                         </div>
                     </div>
                     <ol id="volumes" class="chapter-ol chapter-ol-catalog">
-
-
                         <li class="chapter-bar">正文卷</li>
 						 #foreach($chapter in $chapters)
                         <li class="chapter-li jsChapter" role="&quot;link&quot;">
