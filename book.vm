@@ -21,7 +21,7 @@ if (/iphone/i.test(navigator.userAgent)) {
 var bookId = ${bookId};
 var bookName = "${bookName}";
 </script>
-<script data-ignore="true" src="./script/sprite.0.51.js"></script>
+<script data-ignore="true" src="/xiaoshuo/script/sprite.0.51.js"></script>
 <div class="page page-book-detail">
     <div class="content">
         <header id="header" class="header" data-l1="41">

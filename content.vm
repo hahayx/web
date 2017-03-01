@@ -24,7 +24,7 @@ var chapterId = ${index};
 var chapterName ="${chapterName}";
 
 </script>
-<script data-ignore="true" src="/script/sprite.0.51.js"></script>
+<script data-ignore="true" src="/xiaoshuo/script/sprite.0.51.js"></script>
 
 <div id="pageRead" class="page-read ">
     <div class="nr_page">
