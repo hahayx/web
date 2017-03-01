@@ -30,16 +30,16 @@ if (/iphone/i.test(navigator.userAgent)) {
             </a>
 
             <h1 class="header-back-title">${bookName}</h1>
-			<!--  
             <div class="header-operate">
+			<!--
                 <a id="openSearchPopup" href="javascript:" class="icon icon-search" title="搜索" role="button">
                     <svg>
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
                     </svg>
                 </a>
-                <a id="openGuide" href="javascript:" class="icon icon-more" title="更多" data-rel="guide"></a>
+			-->
+                <a id="openGuide" href="http://www.hahayx.com/xiaoshuo/index.html" class=" icon icon-home" title="主页" ></a>
             </div>
-			--->
         </header>
         <div id="guide" class="guide">
             <i id="guideOverlay" class="guide-overlay"></i>
@@ -122,7 +122,7 @@ if (/iphone/i.test(navigator.userAgent)) {
         </div>
         <div class="module module-merge">
             <section id="bookSummary" class="book-summary" role="option">
-                <aria>书籍摘要：</aria>
+                <strong>小说简介：</strong>
                 <content>${info}</content>
                     <span class="book-summary-more">
                         <svg class="icon icon-arrow-r" aria-hidden="true">
@@ -134,7 +134,7 @@ if (/iphone/i.test(navigator.userAgent)) {
                 <div role="option">
                     <div class="book-meta-l">
                         <aria>点击访问</aria>
-                        <strong class="book-spt">目录</strong>
+                        <strong class="book-spt">已读</strong>
                     </div>
                     <div class="book-meta-r">
                         <aria>：更新状态：</aria>

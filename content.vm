@@ -18,7 +18,7 @@ if (/iphone/i.test(navigator.userAgent)) {
     document.body.style.webkitTapHighlightColor = 'rgba(0,0,0,.05)';
     document.body.classList.add('iphone');
 }</script>
-<script data-ignore="true" src="/xiaoshuo/script/sprite.0.51.js"></script>
+<script data-ignore="true" src="/script/sprite.0.51.js"></script>
 
 <div id="pageRead" class="page-read ">
     <div class="nr_page">
@@ -54,7 +54,7 @@ if (/iphone/i.test(navigator.userAgent)) {
 	</div>
 
 	<div class="page-read-top">
-        <a href="http://www.hahayx.com/xiaoshuo/" class="header-back">
+        <a href="http://www.hahayx.com/xiaoshuo/index.html" class="header-back">
             <svg class="icon icon-arrow-l"><title>返回首页</title><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-l"></use></svg>返回首页
         </a>
 		<strong id="chapterTitle" class="read-book-name">${chapterName}</strong>
