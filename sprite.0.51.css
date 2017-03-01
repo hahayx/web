@@ -94,6 +94,7 @@ body {
     -webkit-text-size-adjust: none;
     -webkit-touch-callout: none;
 	max-width: 750px;
+	margin:0 auto;
 }
 
 .noscroll, .noscroll body {

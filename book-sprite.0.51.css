@@ -94,6 +94,7 @@ body {
     -webkit-text-size-adjust: none;
     -webkit-touch-callout: none;
 	max-width: 750px;
+	margin:0 auto;
 }
 
 .noscroll, .noscroll body {
@@ -3782,7 +3783,9 @@ img[data-src] {
     right: 0;
     left: 0;
     height: 44px;
-    background: inherit
+    background: inherit;
+	max-width: 750px;
+    margin: 0 auto;
 }
 
 .read-article {
