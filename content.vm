@@ -21,6 +21,15 @@ if (/iphone/i.test(navigator.userAgent)) {
 <script data-ignore="true" src="/xiaoshuo/script/sprite.0.51.js"></script>
 
 <div id="pageRead" class="page-read ">
+    <div class="nr_page">
+        <table cellpadding="0" cellspacing="0">
+            <tbody><tr>
+            <td class="prev"><a  href="??">上一章</a></td>
+            <td class="mulu"><a  href="??">返回目录</a></td>
+            <td class="next"><a  href="??">下一章</a></td>
+            </tr>
+        </tbody></table>
+    </div>
 	<content id="readContent" class="page-read-content" >
 		<article id="chapterContent" class="read-article" style="font-size: 1.125rem" >
 			<section class="read-section jsChapterWrapper" >
@@ -29,6 +38,7 @@ if (/iphone/i.test(navigator.userAgent)) {
 			</section>
 		</article>
 	</content>
+
 	<div class="pages">
 			#if($index > 1)
 			#set($pre=$!{index} - 1)
@@ -42,8 +52,11 @@ if (/iphone/i.test(navigator.userAgent)) {
 			<a href="http://www.hahayx.com/xiaoshuo/book-${bookId}/${next}.html" id="readProgNext" class="pager2">下一章 →</a>
 			#end
 	</div>
-	<div class="page-read-top">
 
+	<div class="page-read-top">
+        <a href="http://www.hahayx.com/xiaoshuo/" class="header-back">
+            <svg class="icon icon-arrow-l"><title>返回首页</title><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-l"></use></svg>返回首页
+        </a>
 		<strong id="chapterTitle" class="read-book-name">${chapterName}</strong>
 		<i id="readBookmark" class="read-bookmark" hidden>已加入书签</i>
 	</div>

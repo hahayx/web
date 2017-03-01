@@ -3154,7 +3154,8 @@ img[data-src] {
 }
 
 .page-read-content {
-    border-top: 2.75rem solid transparent
+    border-top: 2.75rem solid transparent;
+    margin-top: 10px;
 }
 
 .H .page-read-content {
@@ -3771,14 +3772,8 @@ img[data-src] {
     border-color: #ed424b #ed424b transparent
 }
 
-.read-book-name {
-    font-size: .75rem;
-    font-weight: 400;
-    position: absolute;
-    top: 15px;
-    left: 1rem;
-    color: rgba(0, 0, 0, .4)
-}
+
+
 
 .page-read-top {
     position: fixed;
@@ -5110,4 +5105,26 @@ a.pager1:active, a.pager2:active {
 
 .return_list{
 	border-radius:0 !important;
+}
+.nr_page{ margin:10px 0px 0;}
+.nr_page table{width:100%;}
+.nr_page table td{ text-align:center}
+.nr_page .prev{text-align:left;margin-left:7px;}
+.nr_page .mulu{text-align:center;}
+.nr_page .next{text-align:right;margin-right:7px;}
+
+.prev a,.mulu a,.next a{display:block;text-align:center;padding:10px 5px;background-color:#d0be9f;color:green;border:1px solid #c4b399; }
+
+.header-back{font-size: 0.8rem;padding: 0 0 0 12px;margin-top: 12px;}
+.read-book-name {
+    font-size: .8rem;
+    font-weight: 400;
+    /* position: absolute; */
+    /* top: 13px; */
+    /* left: 33%; */
+    color: rgba(0, 0, 0, .9);
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 12px;
 }
