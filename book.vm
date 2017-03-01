@@ -90,15 +90,9 @@ var bookName = "${bookName}";
 
                     <div class="book-cell">
                         <strong class="book-title">${bookName}</strong>
-
-                        <div class="book-rand-a" role="link">
-                            <a  role="option">
-                                <aria>作者：</aria>
-                                ${auther}
-                            </a>
-                        </div>
-                        <p class="book-meta" role="option">${type}</p>
-                        <p class="book-meta" role="option">${status}</p>
+						 <p class="book-meta" role="option">作者：${auther}</p>
+                        <p class="book-meta" role="option">类别：${type}</p>
+                        <p class="book-meta" role="option">状态：${status}</p>
                     </div>
                 </div>
 				
@@ -157,7 +151,7 @@ var bookName = "${bookName}";
                         <li class="chapter-bar">正文卷</li>
 						 #foreach($chapter in $chapters)
                         <li class="chapter-li jsChapter" role="&quot;link&quot;">
-                            <a href="/xiaoshuo/book-${bookId}/$!{velocityCount}.html" class="chapter-li-a " data-chapter-id="$!{velocityCount}"
+                            <a href="http://www.hahayx.com/xiaoshuo/book-${bookId}/$!{velocityCount}.html" class="chapter-li-a " data-chapter-id="$!{velocityCount}"
                                role="option">
                                 <span class="chapter-index ">${chapter.name}</span>
                             </a>
