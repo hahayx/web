@@ -92,7 +92,8 @@ body {
     fill: currentColor;
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: none;
-    -webkit-touch-callout: none
+    -webkit-touch-callout: none;
+	max-width: 750px;
 }
 
 .noscroll, .noscroll body {
