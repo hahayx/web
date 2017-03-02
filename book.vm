@@ -81,7 +81,7 @@ var bookName = "${bookName}";
                     </div>
                 </div>
             </a>
-            <a href="###" id="lastReadLink" hidden class="book-meta book-status">
+            <a href="javascript:void();" id="lastReadLink" hidden class="book-meta book-status">
                 <div role="option">
                     <div class="book-meta-l">
                         <aria>点击访问</aria>
