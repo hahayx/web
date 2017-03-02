@@ -41,7 +41,7 @@ var bookName = "${bookName}";
                     </svg>
                 </a>
 			-->
-                <a id="openGuide" href="http://www.hahayx.com/xiaoshuo/index.html" class=" icon icon-home" title="主页" ></a>
+                <a id="openGuide" href="http://www.hahayx.com/xiaoshuo/" class=" icon icon-home" title="主页" ></a>
             </div>
         </header>
         <div id="guide" class="guide">
