@@ -77,5 +77,6 @@ var chapterName ="${chapterName}";
 
 
 <script type="text/javascript" src="/xiaoshuo/script/content.js"></script>
+<script type="text/javascript" src="/js/dc.js"></script>
 </body>
 </html>
