@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a30c6fa-f72c-4334-abe2-0eb1c00ac308" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.vm" afterPath="$PROJECT_DIR$/book.vm" />
     </list>
     <ignored path="haha.iws" />
@@ -45,7 +46,7 @@
       <file leaf-file-name="content.vm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1420">
+            <state relative-caret-position="496">
               <caret line="71" column="54" lean-forward="false" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="54" />
               <folding />
             </state>
@@ -72,8 +73,8 @@
       <file leaf-file-name="book.vm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+            <state relative-caret-position="380">
+              <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,6 +105,7 @@
       <find>.header-operate-a, .header-operate &gt; .icon</find>
       <find>header-back-title</find>
       <find>content</find>
+      <find>ext</find>
     </findStrings>
     <replaceStrings>
       <replace>./img/book-cover.0.50.svg</replace>
@@ -128,6 +130,7 @@
         <option value="$PROJECT_DIR$/book-sprite.0.51.css" />
         <option value="$PROJECT_DIR$/content.vm" />
         <option value="$PROJECT_DIR$/desc-sprite.0.51.css" />
+        <option value="$PROJECT_DIR$/book1.html" />
         <option value="$PROJECT_DIR$/book.vm" />
       </list>
     </option>
@@ -185,16 +188,17 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="X:\haha\img" />
-      <recent name="D:\haha\new version 2\script" />
-      <recent name="D:\haha\new version 1" />
-      <recent name="D:\haha\script" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\haha\new version 1\script" />
       <recent name="D:\haha\new version 1" />
       <recent name="D:\haha\new version 1\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\haha\web" />
+      <recent name="X:\haha\img" />
+      <recent name="D:\haha\new version 2\script" />
+      <recent name="D:\haha\new version 1" />
+      <recent name="D:\haha\script" />
     </key>
   </component>
   <component name="RunManager">
@@ -452,14 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="71" column="54" lean-forward="false" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -475,10 +471,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="164" column="45" lean-forward="false" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="71" column="54" lean-forward="false" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        <state relative-caret-position="380">
+          <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding />
         </state>
       </provider>
