@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="/xiaoshuo/book-sprite.0.51.css">
 </head>
 <body class=" skin-default unlogin">
-<script>// add by zhangxinxu 让iOS9- Safari :active伪类生效
-// document.body.addEventListener('ontouchstart', function() {});
-// Safari使用-webkit-tap-highlight-color高亮，因为:active时机有问题
+<script>
 if (/iphone/i.test(navigator.userAgent)) {
     document.body.style.webkitTapHighlightColor = 'rgba(0,0,0,.05)';
     document.body.classList.add('iphone');
@@ -33,13 +31,17 @@ var chapterName ="${chapterName}";
 			#if($index > 1)
 			#set($pre=$!{index} - 1)
             <td class="prev"><a  href="http://www.hahayx.com/xiaoshuo/book-${bookId}/${pre}.html">上一章</a></td>
+			#else
+			<td class="prev"><a  href="http://www.hahayx.com/xiaoshuo/book-${bookId}/">上一章</a></td>
 			#end
 			
             <td class="mulu"><a  href="http://www.hahayx.com/xiaoshuo/book-${bookId}/">返回目录</a></td>
 			
 			#if($index < $size)
 			#set($next=$!{index} + 1)
-            <td class="next"><a  href="??">下一章</a></td>
+            <td class="next"><a  href="http://www.hahayx.com/xiaoshuo/book-${bookId}/${next}.html">下一章</a></td>
+			#else
+			<td class="next"><a >没有了</a></td>
 			#end
             </tr>
         </tbody></table>
@@ -57,6 +59,8 @@ var chapterName ="${chapterName}";
 			#if($index > 1)
 			#set($pre=$!{index} - 1)
 			<a href="http://www.hahayx.com/xiaoshuo/book-${bookId}/${pre}.html" id="readProgPrev" class="pager1">← 上一章</a>
+			#else
+			<a href="http://www.hahayx.com/xiaoshuo/book-${bookId}/" id="readProgPrev" class="pager1">← 上一章</a>
 			#end
 			
 			<a href="http://www.hahayx.com/xiaoshuo/book-${bookId}/" id="readProgReturn" class="pager2 return_list">返回目录</a>
@@ -64,6 +68,8 @@ var chapterName ="${chapterName}";
 			#if($index < $size)
 			#set($next=$!{index} + 1)
 			<a href="http://www.hahayx.com/xiaoshuo/book-${bookId}/${next}.html" id="readProgNext" class="pager2">下一章 →</a>
+			#else
+			<a  id="readProgNext" class="pager2">没有了 →</a>
 			#end
 	</div>
 
@@ -79,5 +85,6 @@ var chapterName ="${chapterName}";
 
 
 <script type="text/javascript" src="/xiaoshuo/script/content.js"></script>
+<script type="text/javascript" src="/js/dc.js"></script>
 </body>
 </html>
