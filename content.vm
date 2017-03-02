@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="/xiaoshuo/book-sprite.0.51.css">
 </head>
 <body class=" skin-default unlogin">
-<script>// add by zhangxinxu 让iOS9- Safari :active伪类生效
-// document.body.addEventListener('ontouchstart', function() {});
-// Safari使用-webkit-tap-highlight-color高亮，因为:active时机有问题
+<script>
 if (/iphone/i.test(navigator.userAgent)) {
     document.body.style.webkitTapHighlightColor = 'rgba(0,0,0,.05)';
     document.body.classList.add('iphone');
