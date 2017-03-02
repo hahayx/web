@@ -108,15 +108,30 @@ var bookName = "${bookName}";
                         </svg>
                     </span>
             </section>
-            <a href="/xiaoshuo/book-${bookId}/${lastChapterIndex}.html" class="book-meta book-status">
+            <a href="/xiaoshuo/book-${bookId}/${lastChapterIndex}.html" id="bookNewLink" class="book-meta book-status">
                 <div role="option">
                     <div class="book-meta-l">
                         <aria>点击访问</aria>
-                        <strong class="book-spt">已读</strong>
+                        <h2 class="book-spt">最新章节</h2>
                     </div>
                     <div class="book-meta-r">
                         <aria>：更新状态：</aria>
-                        <p class="gray ell" id="ariaMuLu" role="option">${lastChapterName}</p>
+                        <p class="gray ell" id="bookNew" role="option">${lastChapterName}</p>
+                        <svg class="icon icon-arrow-r" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-r"></use>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <a href="###" id="lastReadLink" class="book-meta book-status">
+                <div role="option">
+                    <div class="book-meta-l">
+                        <aria>点击访问</aria>
+                        <h2 class="book-spt">最近阅读</h2>
+                    </div>
+                    <div class="book-meta-r">
+                        <aria>：更新状态：</aria>
+                        <p class="gray ell" id="lastRead" role="option">${lastChapterName}</p>
                         <svg class="icon icon-arrow-r" aria-hidden="true">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-r"></use>
                         </svg>

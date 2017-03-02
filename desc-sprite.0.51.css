@@ -218,10 +218,10 @@ body {
 
 .header-operate {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 3px;
     bottom: 0;
-    padding: .25rem .375rem
+    padding: .2rem .375rem;
 }
 
 .header-operate-a, .header-operate > .icon {
@@ -3489,7 +3489,7 @@ img[data-src] {
 }
 
 .book-spt {
-    font-size: 1rem;
+    font-size: .95rem;
     vertical-align: top
 }
 
