@@ -44,39 +44,7 @@ var bookName = "${bookName}";
                 <a id="openGuide" href="http://www.hahayx.com/xiaoshuo/index.html" class=" icon icon-home" title="主页" ></a>
             </div>
         </header>
-        <div id="guide" class="guide">
-            <i id="guideOverlay" class="guide-overlay"></i>
 
-            <div class="guide-content">
-                <nav class="guide-nav">
-                    <a href="/" class="guide-nav-a">
-                        <i class="icon icon-home"></i>
-                        <h4 class="guide-nav-h">首页</h4>
-                    </a>
-                    <a href="/" class="guide-nav-a">
-                        <i class="icon icon-sort"></i>
-                        <h4 class="guide-nav-h">分类</h4>
-                    </a>
-                    <a href="/" class="guide-nav-a">
-                        <i class="icon icon-rank"></i>
-                        <h4 class="guide-nav-h">排行榜</h4>
-                    </a>
-                    <a href="/" class="guide-nav-a">
-                        <i class="icon icon-free"></i>
-                        <h4 class="guide-nav-h">免费</h4>
-                    </a>
-                    <a href="/" class="guide-nav-a">
-                        <i class="icon icon-end"></i>
-                        <h4 class="guide-nav-h">完本</h4>
-                    </a>
-                    <a href="/" class="guide-nav-a jsLogin">
-                        <i class="icon icon-account"></i>
-                        <h4 class="guide-nav-h">账户</h4>
-                    </a>
-                </nav>
-
-            </div>
-        </div>
         <div id="bookDetailWrapper" class="module module-merge book-detail-x" data-book-id="1004608738"
              data-chan-id="21" data-author-id="4362453" data-user-level="" data-book-type="1" data-login-status="false">
             <img src="/xiaoshuo/cover/${bookId}.jpg" class="book-cover-blur" alt="${bookName}"
@@ -123,7 +91,7 @@ var bookName = "${bookName}";
                     </div>
                 </div>
             </a>
-            <a href="###" id="lastReadLink" class="book-meta book-status">
+            <a href="###" id="lastReadLink" hidden class="book-meta book-status">
                 <div role="option">
                     <div class="book-meta-l">
                         <aria>点击访问</aria>
