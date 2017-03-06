@@ -3,8 +3,8 @@
     position: relative;
     overflow: hidden;
     /*max-width: 720px;*/
-    height: 7rem;
-    height: calc(.314 * (100vw - 1.5rem));
+    /*height: 7rem;*/
+    /*height: calc(.314 * (100vw - 1.5rem));*/
     margin: 0 .75rem .75rem;
 }
 

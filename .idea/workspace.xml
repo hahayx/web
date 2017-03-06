@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a30c6fa-f72c-4334-abe2-0eb1c00ac308" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/todo.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.vm" afterPath="$PROJECT_DIR$/book.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ban.css" afterPath="$PROJECT_DIR$/ban.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sprite.0.51.css" afterPath="$PROJECT_DIR$/sprite.0.51.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo.txt" afterPath="$PROJECT_DIR$/todo.txt" />
     </list>
     <ignored path="haha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +30,48 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="1313" column="0" lean-forward="false" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
+            <state relative-caret-position="400">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="203" column="25" lean-forward="false" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sprite.0.51.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprite.0.51.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="763">
+              <caret line="3517" column="16" lean-forward="false" selection-start-line="3517" selection-start-column="1" selection-end-line="3517" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ban.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ban.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -36,8 +80,8 @@
       <file leaf-file-name="description.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/description.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="520">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -46,8 +90,8 @@
       <file leaf-file-name="content.vm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+            <state relative-caret-position="336">
+              <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -70,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book.vm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book.vm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+            <state relative-caret-position="440">
+              <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -87,6 +131,7 @@
       <list>
         <option value="CSS File" />
         <option value="Html5" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,6 +154,9 @@
       <find>&quot;ext&quot;</find>
       <find>###</find>
       <find>#</find>
+      <find>tag-small blue</find>
+      <find>\d.+万字</find>
+      <find>.css</find>
     </findStrings>
     <replaceStrings>
       <replace>./img/book-cover.0.50.svg</replace>
@@ -127,7 +175,6 @@
         <option value="$PROJECT_DIR$/new version 1/index.html" />
         <option value="$PROJECT_DIR$/new version 2/index.html" />
         <option value="$PROJECT_DIR$/new version 2/ban.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/description.html" />
         <option value="$PROJECT_DIR$/content.html" />
         <option value="$PROJECT_DIR$/book-sprite.0.51.css" />
@@ -135,6 +182,13 @@
         <option value="$PROJECT_DIR$/desc-sprite.0.51.css" />
         <option value="$PROJECT_DIR$/book1.html" />
         <option value="$PROJECT_DIR$/book.vm" />
+        <option value="$PROJECT_DIR$/game.html" />
+        <option value="D:/savefilefromweb/index.html" />
+        <option value="$PROJECT_DIR$/ban.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/todo.txt" />
+        <option value="$PROJECT_DIR$/sprite.0.51.css" />
+        <option value="$PROJECT_DIR$/category.html" />
       </list>
     </option>
   </component>
@@ -176,10 +230,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FZZCYSK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +260,7 @@
     <property name="nodejs_interpreter_path" value="E:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -267,6 +339,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4460">
+          <caret line="223" column="27" lean-forward="false" selection-start-line="223" selection-start-column="27" selection-end-line="223" selection-end-column="27" />
+          <folding>
+            <element signature="e#28024#28287#1" expanded="true" />
+            <element signature="e#36817#37520#2" expanded="true" />
+            <element signature="e#37646#38337#2" expanded="true" />
+            <element signature="e#39941#40420#1" expanded="true" />
+            <element signature="e#41426#41757#1" expanded="true" />
+            <element signature="e#56011#56626#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26260">
           <caret line="1313" column="0" lean-forward="false" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
           <folding />
@@ -285,10 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#article#0;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,14 +411,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#28078#28341#1" expanded="true" />
-            <element signature="e#36871#37574#2" expanded="true" />
-            <element signature="e#37700#38391#2" expanded="true" />
-            <element signature="e#39995#40474#1" expanded="true" />
-            <element signature="e#41480#41811#1" expanded="true" />
-            <element signature="e#56064#56679#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -407,21 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-sprite.0.51.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="3157" column="20" lean-forward="false" selection-start-line="3157" selection-start-column="20" selection-end-line="3157" selection-end-column="20" />
-          <folding>
-            <element signature="e#28078#28341#1" expanded="true" />
-            <element signature="e#36871#37574#2" expanded="true" />
-            <element signature="e#37700#38391#2" expanded="true" />
-            <element signature="e#39995#40474#1" expanded="true" />
-            <element signature="e#41480#41811#1" expanded="true" />
-            <element signature="e#56064#56679#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/TouchSlide.1.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
@@ -436,29 +529,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#article#0;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#content#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="1313" column="0" lean-forward="false" selection-start-line="1313" selection-start-column="0" selection-end-line="1313" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/book1.html" />
+    <entry file="file://$PROJECT_DIR$/game.html" />
+    <entry file="file://D:/savefilefromweb/index.html" />
     <entry file="file://$PROJECT_DIR$/desc-sprite.0.51.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -474,26 +550,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book1.html">
+    <entry file="file://$PROJECT_DIR$/book.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="164" column="45" lean-forward="false" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="45" />
+        <state relative-caret-position="440">
+          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/FZZCYSK/FZZCYSK.0.53.woff2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+        <state relative-caret-position="336">
+          <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book.vm">
+    <entry file="file://$PROJECT_DIR$/description.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+        <state relative-caret-position="520">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-sprite.0.51.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="3157" column="20" lean-forward="false" selection-start-line="3157" selection-start-column="20" selection-end-line="3157" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ban.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprite.0.51.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="3517" column="16" lean-forward="false" selection-start-line="3517" selection-start-column="1" selection-end-line="3517" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="203" column="25" lean-forward="false" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
           <folding />
         </state>
       </provider>

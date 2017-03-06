@@ -228,8 +228,8 @@ body {
 .header-operate-a, .header-operate > .icon {
     float: left;
     overflow: hidden;
-    width: 2.25rem;
-    height: 2.25rem
+    /*width: 2.25rem;*/
+    /*height: 2.25rem*/
 }
 
 .header-operate svg {
@@ -3220,7 +3220,7 @@ img[data-src] {
     display: flex;
     display: -webkit-box;
     display: box;
-    margin: .375rem 0;
+    margin: .625rem 0;
     padding: .75em .625rem;
     background-color: #fff;
     justify-content: space-between;
@@ -3460,4 +3460,61 @@ img[data-src] {
         background-image: url(./icon/common/sprite@2x.0.50.png);
         background-size: 87px 87px
     }
+}
+
+.pagination {
+    text-align: center;
+    padding: 18px 0 20px;
+    font-family: Tahoma,Arial;
+    font-size: 14px;
+}
+
+.pagination a,.pagination span {
+    padding: 6px 11px;
+    margin: 0 2px;
+    background: #fff;
+    color: #666;
+    font-family: Tahoma;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    height: 14px;
+    width: 14px;
+    display:inline-block;
+    line-height:14px;
+}
+
+.pagination .current,.pagination a:hover {
+    background: #63b830;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #63b830
+}
+
+.header-operate {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    bottom: 0;
+    padding: .2rem .375rem;
+}
+
+.icon-home{
+    background-position: -31px 0;
+    width: 28px;
+    height: 25px;
+    background-image: url(./icon/common/sprite@2x.0.50.png);
+    background-size: 87px 87px;
+}
+
+.heightInherit{
+  height: inherit !important;
+}
+
+.littleMargin{
+    margin: 0.2rem 0;
+}
+
+.littleMarginTop{
+    margin-top: 0.5rem;
 }
