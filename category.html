@@ -58,9 +58,9 @@
                                                                                                             aria-hidden=true>精选推荐</span>
                 </div>
             </div>
-            <div class=module-slide>
-                <ol class=module-slide-ol>
-                    <li class=module-slide-li><a href=/book/1003541158 class=module-slide-a data-eid=mqd_A17
+            <div class="module-slide swiper-container" >
+                <ol class="module-slide-ol swiper-wrapper" >
+                    <li class="module-slide-li swiper-slide"><a href=/book/1003541158 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1003541158 data-auid=1030909><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1003541158/150 class=module-slide-img alt=我的1979>
@@ -69,7 +69,7 @@
                             <aria>作者：</aria>
                             <span class=gray>争斤论两花花帽</span></p>
                     </a></li>
-                    <li class=module-slide-li><a href=/book/1003477570 class=module-slide-a data-eid=mqd_A17
+                    <li class="module-slide-li swiper-slide"><a href=/book/1003477570 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1003477570 data-auid=6944321><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1003477570/150 class=module-slide-img alt=都市猎人>
@@ -78,7 +78,7 @@
                             <aria>作者：</aria>
                             <span class=gray>都市猎人</span></p>
                     </a></li>
-                    <li class=module-slide-li><a href=/book/1004289255 class=module-slide-a data-eid=mqd_A17
+                    <li class="module-slide-li swiper-slide"><a href=/book/1004289255 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1004289255 data-auid=6859669><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1004289255/150 class=module-slide-img alt=天幕神捕>
@@ -87,7 +87,7 @@
                             <aria>作者：</aria>
                             <span class=gray>东城令</span></p>
                     </a></li>
-                    <li class=module-slide-li><a href=/book/1002836186 class=module-slide-a data-eid=mqd_A17
+                    <li class="module-slide-li swiper-slide"><a href=/book/1002836186 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1002836186 data-auid=2059222><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1002836186/150 class=module-slide-img alt=重生之我是BOSS>
@@ -96,7 +96,7 @@
                             <aria>作者：</aria>
                             <span class=gray>不是浮云</span></p>
                     </a></li>
-                    <li class=module-slide-li><a href=/book/1003631173 class=module-slide-a data-eid=mqd_A17
+                    <li class="module-slide-li swiper-slide"><a href=/book/1003631173 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1003631173 data-auid=7488738><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1003631173/150 class=module-slide-img alt=调教大宋>
@@ -105,7 +105,7 @@
                             <aria>作者：</aria>
                             <span class=gray>苍山月</span></p>
                     </a></li>
-                    <li class=module-slide-li><a href=/book/1004086548 class=module-slide-a data-eid=mqd_A17
+                    <li class="module-slide-li swiper-slide"><a href=/book/1004086548 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1004086548 data-auid=71579><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1004086548/150 class=module-slide-img alt=永恒国度>
@@ -114,7 +114,7 @@
                             <aria>作者：</aria>
                             <span class=gray>孤独漂流</span></p>
                     </a></li>
-                    <li class=module-slide-li><a href=/book/1004832151 class=module-slide-a data-eid=mqd_A17
+                    <li class="module-slide-li swiper-slide"><a href=/book/1004832151 class=module-slide-a data-eid=mqd_A17
                                                  data-bid=1004832151 data-auid=4370129><img
                             src=./img/book-cover.0.50.svg
                             data-src=//qidian.qpic.cn/qdbimg/349573/1004832151/150 class=module-slide-img alt=武侠世界大明星>
@@ -123,6 +123,7 @@
                             <aria>作者：</aria>
                             <span class=gray>殊彦</span></p>
                     </a></li>
+                    <!--<li class="module-slide-li swiper-slide"><a class="module-slide-a"></a></li>-->
                 </ol>
             </div>
         </div>
@@ -226,6 +227,7 @@
 
 <script type="text/javascript" src="./script/TouchSlide.1.1.js"></script>
 <script type="text/javascript" src="./script/zepto.min.js"></script>
+<script type="text/javascript" src="./script/swiper.min.js"></script>
 
 <script>
     var $banner = $("#banner");
@@ -248,6 +250,16 @@
         });
     }
 
+
+    var swiper = new Swiper('.swiper-container', {
+//        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        centeredSlides: false,
+        paginationClickable: false,
+        spaceBetween: 0,
+        slidesOffsetAfter : 46,
+        grabCursor: false
+    });
 //    $(window).resize(function () {
 //        var $h = $("html");
 //        var winW = $h.width(), winH = $h.height();

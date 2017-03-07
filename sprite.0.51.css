@@ -93,8 +93,8 @@ body {
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: none;
     -webkit-touch-callout: none;
-	max-width: 750px;
-	margin:0 auto;
+    max-width: 750px;
+    margin:0 auto;
 }
 
 .noscroll, .noscroll body {
@@ -1150,19 +1150,25 @@ a.icon-more.active::after {
     margin-left: 0
 }
 
+.module-slide{
+    overflow-x: hidden;
+    /*sb 起点*/
+     margin-right: 0.5rem;
+}
+
 .module-slide-ol {
     position: relative;
     display: none;
-    overflow-x: auto;
-    overflow-y: hidden;
+    /*overflow-x: auto;*/
+    /*overflow-y: hidden;*/
     min-height: 10.75rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    white-space: nowrap
+     padding-left: 8px;
+    /* padding-right: .5rem; */
+    white-space: nowrap;
 }
 
 .module-slide-ol::-webkit-scrollbar {
-    display: none
+    display: none;
 }
 
 .module-slide-ol:not(.WX) {
@@ -3508,7 +3514,7 @@ img[data-src] {
 }
 
 .heightInherit{
-  height: inherit !important;
+    height: inherit !important;
 }
 
 .littleMargin{
