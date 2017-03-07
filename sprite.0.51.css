@@ -139,7 +139,7 @@ body {
 
 .module {
     margin: .75rem 0;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .header {
@@ -1153,7 +1153,8 @@ a.icon-more.active::after {
 .module-slide{
     overflow-x: hidden;
     /*sb 起点*/
-     margin-right: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .module-slide-ol {
@@ -1162,7 +1163,7 @@ a.icon-more.active::after {
     /*overflow-x: auto;*/
     /*overflow-y: hidden;*/
     min-height: 10.75rem;
-     padding-left: 8px;
+    /* padding-left: 8px; */
     /* padding-right: .5rem; */
     white-space: nowrap;
 }
@@ -1182,7 +1183,8 @@ a.icon-more.active::after {
 .module-slide-li {
     display: inline-block;
     vertical-align: top;
-    white-space: normal
+    white-space: normal;
+    width: 21% !important;
 }
 
 .module-slide-li:nth-of-type(10) .corner-rank > em {
@@ -1190,16 +1192,24 @@ a.icon-more.active::after {
 }
 
 .module-slide-a {
-    display: block;
-    width: 4.125rem;
-    padding: .75rem .5rem .5rem
+    display: inline-block;
+    width: 80%;
+    /*padding: .75rem .5rem .5rem*/
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 15%;
+    white-space: normal;
+    vertical-align: top;
 }
 
 .module-slide-img {
     display: block;
-    width: inherit;
-    height: 5.5rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3)
+    width: 100%;
+    /*height: 5.5rem;*/
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    text-align: center;
+    margin: 0 auto;
 }
 
 .module-slide-caption {
@@ -1554,16 +1564,16 @@ a.icon-more.active::after {
 .guide-nav-a > .icon {
     position: absolute;
     right: 0;
-    bottom: 1.625rem;
+    bottom: 1.5rem;
     left: 0;
-    margin: auto
+    margin: auto;
 }
 
 .guide-nav-h {
     position: absolute;
     right: 0;
-    bottom: .1875rem;
-    left: 0
+    bottom: 0.2575rem;
+    left: 0;
 }
 
 .guide-nav .guide-nav-a {
@@ -3523,4 +3533,22 @@ img[data-src] {
 
 .littleMarginTop{
     margin-top: 0.5rem;
+}
+
+.wsn{
+    white-space: nowrap;
+}
+
+.oh{
+    overflow: hidden;
+    /*background-color: transparent;*/
+}
+
+.guide-nav-a{
+    width:25%;
+    background: white;
+}
+
+.list-nov{
+    margin: 0 0.5rem;
 }
