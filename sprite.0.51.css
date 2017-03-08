@@ -1564,7 +1564,7 @@ a.icon-more.active::after {
 .guide-nav-a > .icon {
     position: absolute;
     right: 0;
-    bottom: 1.5rem;
+    bottom: 1.35rem;
     left: 0;
     margin: auto;
 }
@@ -1572,7 +1572,7 @@ a.icon-more.active::after {
 .guide-nav-h {
     position: absolute;
     right: 0;
-    bottom: 0.2575rem;
+    bottom: 0.1575rem;
     left: 0;
 }
 
@@ -3545,10 +3545,65 @@ img[data-src] {
 }
 
 .guide-nav-a{
-    width:25%;
+    width:22%;
     background: white;
 }
 
 .list-nov{
     margin: 0 0.5rem;
+}
+
+.icon-1{
+    background: url(icon/icon1.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-2{
+    background: url(icon/icon2.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-3{
+    background: url(icon/icon3.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-4{
+    background: url(icon/icon4.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-5{
+    background: url(icon/icon5.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-6{
+    background: url(icon/icon6.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-7{
+    background: url(icon/icon7.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-8{
+    background: url(icon/icon8.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+.icon-9{
+    background: url(icon/icon9.png) no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
 }
