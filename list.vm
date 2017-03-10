@@ -25,7 +25,7 @@
                 </svg>
             </a>
 
-            <h1 class="header-back-title">首页</h1>
+            <strong class="header-back-title">首页</strong>
             <div class="header-operate">
                 <a id="openGuide" href="http://www.hahayx.com/xiaoshuo/" class=" icon icon-home" title="主页"></a>
             </div>
