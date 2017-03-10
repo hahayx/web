@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>好看的${type}小说推荐_${type}小说大全_${type}小说排行榜_哈哈优选</title>
+    <meta name="keywords" content="好看的${type}小说,${type}小说推荐,${type}小说排行榜">
+    <meta name="description" content="哈哈优选收录了好看的${type}小说，免费推荐${type}小说在线阅读，最好看的${type}小说排行榜来自广大${type}小说爱好者最喜欢的小说阅读网">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="sprite.0.51.css">
+    <link rel="stylesheet" href="ban.css">
+
+</head>
+<body class="unlogin">
+<script>/iphone/i.test(navigator.userAgent) && (document.body.style.webkitTapHighlightColor = "rgba(0,0,0,.05)", document.body.classList.add("iphone"))</script>
+<script data-ignore="true" src=./script/sprite.0.51.js></script>
+<div class="page page-home">
+    <div class="content">
+
+        <header id="header" class="header" data-l1="41">
+
+            <a href="http://www.hahayx.com/xiaoshuo/" class="header-back jsBack">
+                <svg class="icon icon-arrow-l"><title>返回</title>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-l"></use>
+                </svg>
+            </a>
+
+            <h1 class="header-back-title">首页</h1>
+            <div class="header-operate">
+                <a id="openGuide" href="http://www.hahayx.com/xiaoshuo/" class=" icon icon-home" title="主页"></a>
+            </div>
+        </header>
+
+        <div class="swiper-container module oh">
+            <div class="swiper-wrapper wsn">
+			<a href="http://www.hahayx.com/xiaoshuo/tag-1-1.html" class="guide-nav-a swiper-slide" ><i class="icon icon-1"></i><h4 class=guide-nav-h>玄幻</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-3-1.html" class="guide-nav-a swiper-slide"><i class="icon icon-2"></i><h4 class=guide-nav-h>都市</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-7-1.html" class="guide-nav-a swiper-slide"><i class="icon icon-3"></i><h4 class=guide-nav-h>女频</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-2-1.html" class="guide-nav-a swiper-slide" ><i class="icon icon-4"></i><h4 class=guide-nav-h>武侠</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-6-1.html" class="guide-nav-a swiper-slide" ><i class="icon icon-5"></i><h4 class=guide-nav-h>网游</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-5-1.html" class="guide-nav-a swiper-slide" ><i class="icon icon-6"></i><h4 class=guide-nav-h>科幻</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-8-1.html" class="guide-nav-a swiper-slide"><i class="icon icon-7"></i><h4 class=guide-nav-h>同人</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/tag-4-1.html" class="guide-nav-a swiper-slide" ><i class="icon icon-8"></i><h4 class=guide-nav-h>历史</h4></a>
+			<a href="http://www.hahayx.com/xiaoshuo/wanben.html" class="guide-nav-a swiper-slide" ><i class="icon icon-9"></i><h4 class=guide-nav-h>完本</h4></a>
+			</div>
+        </div>
+
+		#if($index == 1 && $rdsn > 0)
+        <div class="module" data-l1=4>
+            <div class="module-header">
+                <div class="module-header-l">
+                    <h2 class="module-title">好看的${type}小说</h2>
+                    <span id="ariaDesc1" class="module-title-desc">精选推荐</span>
+                </div>
+            </div>
+            <div class="swiper-container oh list-nov" >
+                <div class="swiper-wrapper wsn" >
+					#foreach($book in $rds)
+					<a href="http://www.hahayx.com/xiaoshuo/book-${book.bookId}" class="module-slide-a swiper-slide">
+                        <img src="http://www.hahayx.com/xiaoshuo/cover/${book.bookId}.jpg" class="module-slide-img" alt="${book.bookName}" />
+                        <figcaption class="module-slide-caption">${book.bookName}</figcaption>
+                    </a>
+					#end
+				</div>
+            </div>
+        </div>
+		#end
+
+        <div class="module module-merge">
+            <div class="module-header">
+                <div class="module-header-l"><h2 class="module-title">${type}小说大全</h2><span
+                        id="ariaDescNew" class="module-title-desc">最近更新</span></div>
+            </div>
+            <ol class="book-ol book-ol-normal">
+				#foreach($book in $list)
+                <li class="book-li">	
+				<a href="http://www.hahayx.com/xiaoshuo/book-${book.bookId}/" class="book-layout">
+					<img src="http://www.hahayx.com/xiaoshuo/cover/${book.bookId}.jpg" class="book-cover littleMarginTop" alt="${book.bookName}">
+                    <div class="book-cell"><h4 class="book-title">${book.bookName}</h4>
+                        <div class="book-desc littleMargin heightInherit">更新至：${book.lastChapterName}</div>
+                        <p class="book-desc littleMargin">简介:${book.info}</p>
+                        <div class="book-meta">
+                            <div class="book-meta-l"><span class="book-author">
+							<svg class="icon icon-human" aria-hidden=true>
+                                <use xlink:href=#icon-human></use>
+                            </svg><aria>作者：</aria>${book.auther}</span></div>
+                            <div class="book-meta-r"><span class="tag-small-group origin-right"><em
+                                    class="tag-small gray">${book.bookTypes}</em><em class="tag-small red">
+									#if($book.bookStatus == 1)
+									连载
+									#end
+									#if($book.bookStatus == 2)
+									完本
+									#end
+									</em><em  class="tag-small blue"></em></span></div>
+                        </div>
+                    </div>
+                </a>
+				</li>
+				#end
+            </ol>
+			
+            <div class="pagination">
+			#foreach($i in $arr)
+				#if($i == $index)
+				<span class="current">$i</span>
+				#end
+				#if($i != $index)
+				<a href="http://www.hahayx.com/xiaoshuo/tag-${typeId}-${i}.html">${i}</a>
+				#end
+			#end
+			</div>
+        </div>
+        <!--<div>当前位置：xxx > xxx</div>-->
+    </div>
+
+
+</div>
+
+<a href=#header
+   class="footer-backtop-circle jsBackToTop"
+   title=返回顶部 data-l1=40
+   >
+    <svg class="icon icon-backtop">
+        <use xlink:href=#icon-backtop></use>
+    </svg>
+</a>
+
+
+<script type="text/javascript" src="./script/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="./script/zepto.min.js"></script>
+<script type="text/javascript" src="./script/swiper.min.js"></script>
+<script type="text/javascript" src="./script/swiper_nav_list.js"></script>
+
+<script>
+   
+</script>
+
+</body>
+</html>
