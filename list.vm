@@ -50,7 +50,7 @@
             <div class="module-header">
                 <div class="module-header-l">
                     <h2 class="module-title">好看的${type}小说</h2>
-                    <span id="ariaDesc1" class="module-title-desc">精选推荐</span>
+                    <span id="ariaDesc1" class="module-title-desc">经典推荐</span>
                 </div>
             </div>
             <div class="swiper-container oh list-nov" >
@@ -68,8 +68,8 @@
 
         <div class="module module-merge">
             <div class="module-header">
-                <div class="module-header-l"><h2 class="module-title">${type}小说大全</h2><span
-                        id="ariaDescNew" class="module-title-desc">最近更新</span></div>
+                <div class="module-header-l"><h2 class="module-title">免费${type}小说</h2><span
+                        id="ariaDescNew" class="module-title-desc">最近更新排行</span></div>
             </div>
             <ol class="book-ol book-ol-normal">
 				#foreach($book in $list)
