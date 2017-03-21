@@ -131,7 +131,7 @@
 <script type="text/javascript" src="./script/zepto.min.js"></script>
 <script type="text/javascript" src="./script/swiper.min.js"></script>
 <script type="text/javascript" src="./script/swiper_nav_list.js"></script>
-
+<script type="text/javascript" src="/js/dc.js"></script>
 <script>
    
 </script>

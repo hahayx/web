@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body class="unlogin">
+<table>
+	#foreach($book in $list)
+	<tr>
+		<td>${book.bookName}</td>
+		<td>${book.bookTypes}</td>
+		<td>${book.auther}</td>
+		<td>http://www.hahayx.com/xiaoshuo/book-${book.bookId}/</td>
+		<td>http://www.hahayx.com/xiaoshuo/cover/${book.bookId}.jpg</td>
+	</tr>
+	#end
+</table>
+</body>
+</html>
