@@ -125,7 +125,6 @@ body {
 }
 
 .content {
-    padding-bottom: .1px;
     background-color: #f6f7f9
 }
 
@@ -145,11 +144,11 @@ body {
 .header {
     position: relative;
     box-sizing: border-box;
-    height: 2.75rem;
-    padding-top: .6875rem;
-    padding-bottom: .625rem;
+    /* height: 2.75rem; */
+    /* padding-top: .6875rem; */
+    /* padding-bottom: .625rem; */
     border-bottom: 1px solid #f0f1f2;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .header .btn-group-small {
@@ -166,12 +165,8 @@ body {
 }
 
 .logo-a {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 5.625rem;
-    padding: 0 1rem
+	display: block;
+	margin: 5px 0;
 }
 
 .logo {
@@ -183,8 +178,12 @@ body {
     height: 1.125rem;
     margin: auto;
     color: transparent;
-    background: url(./img/logo-qdm.0.50.svg) no-repeat center;
     background-size: 100%
+}
+
+.logo-a img{
+	width:100%;
+	max-width:200px;
 }
 
 .header-back {
