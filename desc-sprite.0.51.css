@@ -187,6 +187,10 @@ body {
     background-size: 100%
 }
 
+#lastReadLink{
+	display:none;
+}
+
 .header-back {
     position: absolute;
     top: 0;
