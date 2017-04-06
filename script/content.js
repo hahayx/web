@@ -4,3 +4,9 @@ try{
 }catch(e){
 	
 }
+
+var elm = document.getElementById("readProgNext");
+var h = elm.getAttribute("href");
+if(!h){
+	elm.setAttribute("href", "javascript:;");
+}
