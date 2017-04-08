@@ -141,12 +141,22 @@ body {
     background-color: #fff;
 }
 
-.header {
+.header-home {
     position: relative;
     box-sizing: border-box;
     /* height: 2.75rem; */
     /* padding-top: .6875rem; */
     /* padding-bottom: .625rem; */
+    border-bottom: 1px solid #f0f1f2;
+    background-color: #fff;
+}
+
+.header {
+    position: relative;
+    box-sizing: border-box;
+    height: 2.75rem;
+    padding-top: .6875rem;
+    padding-bottom: .625rem;
     border-bottom: 1px solid #f0f1f2;
     background-color: #fff;
 }
@@ -183,7 +193,7 @@ body {
 
 .logo-a img{
 	width:100%;
-	max-width:200px;
+	max-width:160px;
 }
 
 .header-back {

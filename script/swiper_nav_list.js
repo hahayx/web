@@ -9,13 +9,3 @@ var swiper = new Swiper('.swiper-container', {
     // slidesOffsetAfter : 46,
     grabCursor: false
 });
-
-new Swiper('.swiper-container-banner', {
-    pagination : '.swiper-pagination',
-    slidesPerView: 'auto',
-    centeredSlides: false,
-    paginationClickable: false,
-    spaceBetween: 0,
-    // slidesOffsetAfter : 46,
-    grabCursor: false
-});
