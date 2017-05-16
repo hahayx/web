@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<style>
+		.searchForm{text-align:center; margin:10px; position:relative; clear:both;}
+		.bdcs{margin:0 auto;text-align:center;}
+		.searchForm_input{
+			border: 1px #c0deea solid;
+			font-size: 14px;
+			background: #f8fdff;
+			width: 200px;
+			height: 30px;
+			line-height: 30px;
+			color: #111111;
+			padding-left: 5px;
+		}
+		.searchForm_btn{
+			height: 34px;
+			width: 60px;
+			color: #ffffff;
+			line-height: 34px;
+			border: none;
+			text-align: center;
+			background: dodgerblue;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+<div class="bdcs">
+<form>
+<input type="text" class="searchForm_input" id="bdcsMain"/>
+<input type="submit" class="searchForm_btn" value="搜索">
+</form>
+</div>
+<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=711048606318470336' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+</body>
+</html>

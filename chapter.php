@@ -12,12 +12,18 @@ function myTrim($str)
 }
 
 $id = $_GET['id'];
+$start = $_GET['start'];
+$limit = $_GET['limit'];
 $html = new simple_html_dom();
 $html->load_file('book-'.$id.'/index.html');
 $l = $html->find('html' , 0);
 
 
 $chapter  = $l->find('ol[id="volumes"]',0)->find('a');
+
+if($start != null){
+	$chapter = array_slice($chapter, $start , $limit);
+}
 
 $b = '[';
 foreach ($chapter as $value) {

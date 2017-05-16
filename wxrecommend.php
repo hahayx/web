@@ -15,35 +15,8 @@ if (!$con)
 mysql_select_db("hdm186864700_db", $con);
 
 
-if($id){
-    if(!is_numeric($id)){
-        echo 'id is null, i will return. byebye;';
-        return;
-    }
-    $c = "where BookId =". $id;
-    $result = mysql_query("SELECT * FROM Novel ". $c);
 
-    echo '{';
-    while($row = mysql_fetch_array($result))
-      {
-
-        echo '"bookId"'.':"'.$row['BookId'].'",';
-        echo '"bookName"'.':"'.$row['BookName'].'",';
-        echo '"auther"'.':"'.$row['Auther'].'",';
-        echo '"info"'.':"'.br2nl(myTrim($row['Info'])).'",';
-        echo '"bookStatus"'.':"'.$row['BookStatus'].'",';
-        echo '"bookType"'.':"'.$row['BookType'].'",';
-        echo '"src"'.':"https://www.liguanjian.com/xiaoshuo/cover/'.$row['BookId'].'.jpg",';
-        echo '"lastChapterName"'.':"'.$row['LastChapterName'].'"';
-      }
-
-    echo '}';
-}else if($type){
-    if(!is_numeric($type)){
-        echo 'type is null, i will return. byebye;';
-        return;
-    }
-    $result = mysql_query("SELECT * FROM Novel where BookType = ". $type);
+    $result = mysql_query("select * from Novel where Wxrecommend > 0 order by Wxrecommend desc;");
 
     $b = '[';
     while($row = mysql_fetch_array($result))
@@ -61,7 +34,7 @@ if($id){
       }
     $b = $b. ']';
     echo str_replace('},]' , '}]', $b);
-}
+
 
 
 function myTrim($str)
