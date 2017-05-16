@@ -8,6 +8,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="applicable-device" content="pc,mobile">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<meta http-equiv="Cache-Control" content="no-transform" />
     <link rel="stylesheet" href="/xiaoshuo/desc-sprite.0.51.css">
 </head>
 <body class=" unlogin">
